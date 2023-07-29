@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "eo-mobile-simdjson"
-  spec.version      = "3.2.1-alpha1"
+  spec.version      = "3.2.1"
   spec.summary      = "eo-mobile-simdjson"
   spec.description  = "simdjson 3.2.1 packed into .xcframework for using into ios/mac projects via #import/#include <simdjson/simdjson.h>"
   spec.homepage     = "https://www.ibitcy.com"
