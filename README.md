@@ -26,7 +26,7 @@ repositories {
 ..
 dependencies {
     ..
-    implementation 'com.github.ibitcy:eo-mobile-simdjson:3.2.3'
+    implementation 'com.github.ibitcy:eo-mobile-simdjson:3.2.5'
     ..
 }
 ```
