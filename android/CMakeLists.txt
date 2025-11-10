@@ -22,4 +22,6 @@ file(GLOB src_files ../include/simdjson/simdjson.cpp)
 add_library(simdjson SHARED ${src_files})
 target_include_directories(simdjson PUBLIC include)
 
+target_link_options(simdjson PRIVATE -Wl,-z,max-page-size=16384)
+
 set_target_properties(simdjson PROPERTIES LINKER_LANGUAGE CXX)
