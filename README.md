@@ -4,7 +4,7 @@
 </p>
 
 
-# eo-mobile-simdjson 3.2.2
+# eo-mobile-simdjson 4.2.2
 
 Easy to use solution for including [Simdjson](https://github.com/simdjson/simdjson) into your Android (using prefab) and iOS projects/libraries
 
@@ -26,7 +26,7 @@ repositories {
 ..
 dependencies {
     ..
-    implementation 'com.github.ibitcy:eo-mobile-simdjson:3.2.5'
+    implementation 'com.github.ibitcy:eo-mobile-simdjson:4.2.2'
     ..
 }
 ```

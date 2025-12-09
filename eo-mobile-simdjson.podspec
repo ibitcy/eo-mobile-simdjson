@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
   spec.name         = "eo-mobile-simdjson"
-  spec.version      = "3.2.2"
+  spec.version      = "4.2.2"
   spec.summary      = "eo-mobile-simdjson"
-  spec.description  = "simdjson 3.2.2 packed into .xcframework for using into ios/mac projects via #import/#include <simdjson/simdjson.h>"
+  spec.description  = "simdjson 4.2.2 packed into .xcframework for using into ios/mac projects via #import/#include <simdjson/simdjson.h>"
   spec.homepage     = "https://www.ibitcy.com"
   spec.license      = { :type => 'MIT', :text => 'The MIT License (MIT)
 
@@ -26,6 +26,6 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.' }
   spec.author       = { "author" => "stepan.kopylov@ibitcy.com" }
   spec.platform     = :ios, "9.3"
-  spec.source       = { :http => "https://github.com/ibitcy/eo-mobile-simdjson/raw/main/ios/product/simdjson_3.2.2.zip", :type => "zip" }
+  spec.source       = { :http => "https://github.com/ibitcy/eo-mobile-simdjson/raw/main/ios/product/simdjson_4.2.2.zip", :type => "zip" }
   spec.ios.vendored_frameworks = 'simdjson.xcframework'
 end
